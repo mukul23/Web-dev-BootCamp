@@ -1,0 +1,62 @@
+.date{
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #3093d1;
+	letter-spacing: 3px;
+
+}
+
+body{
+	width: 60%;
+	margin: auto;
+	border: 10px solid #9D989C;
+}
+
+h1{
+	color: #190b3d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+*{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p{
+
+	color: #3a1c3a;
+	font-family: 'Lato', sans-serif;
+	padding-left: 6px;
+	margin-bottom: 33px;
+}
+
+.around{
+	border-left: 5px solid #9D989C;
+}
+
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.second{
+	margin-bottom: 22px;
+}
