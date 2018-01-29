@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Example</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		<label for="fName">First Name:</label>
+		<input id="fName" type="text" name="Name">
+
+		<label for="lName" >Last Name:</label>
+		<input id="lName" type="text" name="lName">
+
+		<br>
+		<label>Male</label>
+		<input type="radio" name="Gender" value="Male">
+
+		<label>Female</label>
+		<input type="radio" name="Gender" value="Female">
+
+		<label>Other</label>
+		<input type="radio" name="Gender" value="other">
+
+		<br>
+		<label>Email:</label>
+		<input type="email" name="email" required>
+
+		<label>password</label>
+		<input type="password" name="password" required>
+
+		<br>
+		<label>Birthday:</label>
+
+		<select name="Month">
+			<option>month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			
+		</select>
+
+		<select name="Day">
+			<option>Day</option>
+			<option>Mon</option>
+			<option>Tue</option>
+		</select>
+
+		<select name="Year">
+		<option>Year</option>
+		<option>1998</option>
+		<option>1999</option>
+		<option>2000</option>
+		</select>
+
+		<br>
+		<p>I agree to terms and conditions
+		<input type="checkbox" name="agree" value="agree"></p>
+		<input type="submit" name="submit">
+
+	</form>
+
+</body>
+</html>
